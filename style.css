@@ -1,0 +1,22 @@
+
+#div3{background-color: green;color: green;}
+#div{height: 400px;}
+#div4{width: 100vw;height: 500px;}
+#div5{background-color: blue; width: 30vw;height: 30vh;}
+#div6{background-image: url(muntins.jpg)}
+@media screen and (min-width: 700px) {
+#div{width: 100px; height: 100px}
+ #div2{background-color: blue; width:200px; height: 200px;}
+ #div3{background-color: green;color:white ;}
+ #div4{background: url(mountins2.jpg); width: 100vw; height: 300px;}
+ #div5{background-color: blue; width: 30vw; height: 30vw;border-radius: 30vh; border: 2px solid black;}
+ #div6{background-image: url(muntins.jpg);filter: blur(90%); width: 40vh;height: 40vh;}
+}
+@media screen and (max-width: 550px) {
+    #div{ width: 30px; height: 30px;}
+     #div2{background-color: red;width: 100px; height: 100px;} 
+     #div3{background-color: green;color:yellow}
+     #div4{background-image: url(forest.jpg); width: 100vw; height: 300px}
+     #div5{background-color: blue; width: 30vw;height: 30vh;}
+     #div6{ filter:grayscale(90%); width: 40vh;height: 40vh}
+}
